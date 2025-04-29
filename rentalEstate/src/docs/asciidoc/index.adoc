@@ -1,0 +1,52 @@
+= Rental Estate API Documentation
+:toc: left
+:toclevels: 2
+:source-highlighter: highlightjs
+
+== Introduction
+
+This document describes the REST API for the Rental Estate application.
+
+== Authentication
+
+All API requests require authentication using JWT tokens.
+
+=== Register
+
+[source,http,options="nowrap"]
+----
+POST /api/auth/register HTTP/1.1
+Host: localhost:5001
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "password": "password123",
+    "retypePassword": "password123",
+    "email": "test@example.com",
+    "fullName": "Test User",
+    "phone": "0123456789"
+}
+----
+
+include::{snippets}/user-register/request-fields.adoc[]
+
+include::{snippets}/user-register/response-fields.adoc[]
+
+=== Login
+
+[source,http,options="nowrap"]
+----
+POST /api/auth/login HTTP/1.1
+Host: localhost:5001
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "password": "password123"
+}
+----
+
+include::{snippets}/user-login/request-fields.adoc[]
+
+include::{snippets}/user-login/response-fields.adoc[] 
