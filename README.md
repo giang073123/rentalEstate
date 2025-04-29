@@ -48,10 +48,13 @@ Hệ thống quản lý bất động sản cho thuê, được xây dựng vớ
 5. Quản lý khách hàng (cho chủ nhà)
 - Xem danh sách khách hàng đã gửi yêu cầu thuê.
 - Xem thông tin chi tiết và các bất động sản khách hàng quan tâm.
-6. Dashboard thống kê (cho admin & chủ nhà)
+6. Quản lý người dùng (cho admin)
+- Xem danh sách người dùng trong hệ thống.
+- Xóa người dùng.
+7. Dashboard thống kê (cho admin & chủ nhà)
 - Thống kê số lượng bất động sản, số lượng yêu cầu thuê, tỷ lệ đã cho thuê, số lượng bất động sản nổi bật (phổ biến).
 - Biểu đồ trực quan hóa dữ liệu (sử dụng Chart.js, Ant Design Charts).
-7. Quản lý thông báo
+8. Quản lý thông báo
 - Gửi và nhận thông báo liên quan đến trạng thái bất động sản, yêu cầu thuê, v.v.
 
 ## Bảo mật
