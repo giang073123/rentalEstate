@@ -19,12 +19,15 @@ Hệ thống quản lý bất động sản cho thuê, được xây dựng vớ
 - Swagger/OpenAPI (API documentation)
 - Lombok
 - Maven
+- Spring Boot Starter Mail
 
 ### Frontend
 
 - React
 - React Router
 - Axios
+- Ant Design (antd)
+
 
 ## Tính năng chính
 
