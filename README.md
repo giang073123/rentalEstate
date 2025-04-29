@@ -28,25 +28,28 @@ Hệ thống quản lý bất động sản cho thuê, được xây dựng vớ
 
 ## Tính năng chính
 
-### Backend
-
-- Xác thực và phân quyền (JWT)
-- Quản lý bất động sản (CRUD)
-- Quản lý yêu cầu thuê nhà
-- Quản lý thông báo
-- Upload và quản lý hình ảnh (Google Drive)
-- Tìm kiếm và lọc bất động sản
-- Thống kê và báo cáo
-
-### Frontend
-
-- Đăng nhập/Đăng ký
-- Quản lý bất động sản
-- Tìm kiếm và lọc nâng cao
-- Quản lý yêu cầu thuê nhà
-- Quản lý thông báo
-- Dashboard cho admin và chủ nhà
-- Responsive design
+1. Đăng ký, đăng nhập, xác thực và phân quyền người dùng
+- Hỗ trợ xác thực bằng JWT.
+- Phân quyền theo vai trò (người thuê, chủ nhà, admin).
+2. Quản lý bất động sản (CRUD)
+- Thêm, sửa, xóa, xem chi tiết bất động sản.
+- Quản lý hình ảnh bất động sản (upload, lưu trữ qua Google Drive API).
+- Quản lý trạng thái bất động sản: chờ duyệt, đã duyệt, đã cho thuê, bị từ chối.
+3. Tìm kiếm & lọc bất động sản nâng cao
+- Lọc theo giá, diện tích, vị trí (tỉnh/thành, quận/huyện, phường/xã), hướng nhà, số phòng ngủ, tiện ích, thời gian chuyển vào, v.v.
+- Tìm kiếm theo từ khóa.
+4. Quản lý yêu cầu thuê nhà
+- Người thuê gửi yêu cầu thuê.
+- Chủ nhà duyệt, từ chối, hoặc quản lý trạng thái yêu cầu thuê.
+- Theo dõi lịch sử thuê, trạng thái yêu cầu.
+5. Quản lý khách hàng (cho chủ nhà)
+- Xem danh sách khách hàng đã gửi yêu cầu thuê.
+- Xem thông tin chi tiết và các bất động sản khách hàng quan tâm.
+6. Dashboard thống kê (cho admin & chủ nhà)
+- Thống kê số lượng bất động sản, số lượng yêu cầu thuê, tỷ lệ đã cho thuê, số lượng bất động sản nổi bật (phổ biến).
+- Biểu đồ trực quan hóa dữ liệu (sử dụng Chart.js, Ant Design Charts).
+7. Quản lý thông báo
+- Gửi và nhận thông báo liên quan đến trạng thái bất động sản, yêu cầu thuê, v.v.
 
 ## Bảo mật
 
