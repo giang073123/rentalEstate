@@ -68,7 +68,8 @@ Hệ thống quản lý bất động sản cho thuê, được xây dựng vớ
 
 ## API Documentation
 
-Xem chi tiết API tại: [Rental Estate API Documentation](https://rentalestate.onrender.com/)
+- Xem chi tiết API tại: [Rental Estate API Documentation](https://rentalestate.onrender.com/)
+- Xem demo sản phẩm tại: [Rental Estate Management System Demo](https://drive.google.com/file/d/16xLe9ou5Li7VNBXclCNppJQH6m7fGL8N/view?usp=sharing)
 
 ## Cài đặt và Chạy
 
